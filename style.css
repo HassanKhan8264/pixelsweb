@@ -308,7 +308,7 @@ body{
 }
 .midside{
     border: 1px solid red;
-    width: 60vw;
+    width: 59vw;
     margin: 5px;
     margin-left:50px;
 
@@ -362,7 +362,11 @@ body{
 }
 .system ul li,.size ul li,.w ul li,.H ul li,.popularity ul li{
     list-style: none;
-    padding-top: 32px;
+    padding-top:27px;
+}
+
+#mobile{
+    line-height: 59px;
 }
 .rightside{
     border: 1px solid red;
