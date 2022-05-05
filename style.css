@@ -6,11 +6,9 @@
     src:url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 body{
-    margin: 0px;
-    padding: 0px;
-    transition: all 1s ease;
-    visibility: visible;
-
+    margin: 0;
+    
+    padding: 0;
 }
 .main{
     display: flex;
@@ -27,6 +25,21 @@ body{
     display: flex;
    
 }
+
+.logo{
+    border: 1px solid red;
+    font-size: 30px;
+    color:royalblue;
+    font-family: roboto;
+    src:url(./fonts/Roboto/Roboto-Thin.ttf);
+    margin-left: 30px;
+    padding: 0px 60px;
+    animation: Hassan;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+} 
 @keyframes Hassan {
     0%{
         color: black;
@@ -47,20 +60,6 @@ body{
         color: black;
     }
 }
-.logo{
-    border: 1px solid red;
-    font-size: 30px;
-    color:royalblue;
-    font-family: roboto;
-    src:url(./fonts/Roboto/Roboto-Thin.ttf);
-    margin-left: 30px;
-    padding: 0px 60px;
-    animation: Hassan;
-    animation-duration: 10s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-
-} 
 #logo,.logo::before{
     content: '';
     background-image: url(https://toppng.com/uploads/preview/unity-pixel-unity-pixel-logo-11563310182p3j66arowt.png);
@@ -168,12 +167,7 @@ body{
     width: 100%;
     /* display: block; */
 }
-.ul ul{
-    /* display: block; */
-    /* width: 100%; */
-    /* background-color: aqua; */
-    /* width: 100%; */
-}
+
 .ul ul li{
     width: 100%;
     margin-top: 20px;
@@ -269,9 +263,9 @@ body{
 
 }
 .navbar2{
-    transition: all 1s ease;
-    transition-delay: 3s;
-    transition-duration: 0.90s;
+    transition: all 6s ease;
+    transition-delay: 0s;
+    /* transition-duration: 10s; */
     font-size: 35px;
     color: grey;
     display: block;
@@ -362,15 +356,132 @@ body{
 }
 .system ul li,.size ul li,.w ul li,.H ul li,.popularity ul li{
     list-style: none;
-    padding-top:27px;
+    /* padding-top:28px; */
+    line-height: 55px;
 }
 
 #mobile{
-    line-height: 59px;
+    line-height: 55px;
 }
 .rightside{
     border: 1px solid red;
     margin: 5px ;
     width: 18vw;
     height: auto;
+}
+.animation{
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+    /* background-color: red; */
+    justify-content: space-between;
+   
+}
+.facebook img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+.facebook{
+    border: 1px solid red;
+    background-color: royalblue;
+    border-radius: 4px;
+    border: none;
+    width: 60px;
+    text-align: center;
+    /* display: none; */
+    animation: hassan;
+    animation-duration: 5s;
+    /* animation-timing-function:; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* animation-direction:alternate-reverse; */
+    position: relative;
+}
+@keyframes hassan {
+    0%{
+        /* filter:invert(100%); */
+        color:white;
+        background-color: white; left:0px; top:0px;
+    }
+    20%{
+        background-color: royalblue; left:0px; top:0px;
+        
+    }
+    40%{
+        background-color: royalblue; left:0px; top:0px;
+
+    }
+    60%{
+        background-color: royalblue; left:0px; top:0px;
+
+    }
+    80%{
+        background-color: royalblue; left:0px; top:0px;
+
+    }
+    100%{
+        /* filter:invert(100%); */
+
+        color:white;
+        background-color: white; left:0px; top:0px;
+
+
+    }
+}
+
+.twitter img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+
+}
+.twitter{
+    /* border: 1px solid red; */
+    border: 1px solid red;
+    background-color: rgb(144, 170, 247);
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+    text-align: center;
+    color: white;
+    /* display: none; */
+    animation: khan;
+    animation-duration: 5s;
+    /* animation-timing-function:; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* animation-direction:alternate-reverse; */
+    position: relative;
+}
+@keyframes khan {
+    0%{
+        /* filter:invert(100%); */
+        color:white;
+        background-color: white; left:2px; top:0px;
+    }
+    20%{
+        background-color: royalblue; left:2px; top:0px;
+        
+    }
+    40%{
+        background-color: royalblue; left:2px; top:0px;
+
+    }
+    60%{
+        background-color: royalblue; left:2px; top:0px;
+
+    }
+    80%{
+        background-color: royalblue; left:2px; top:0px;
+
+    }
+    100%{
+        /* filter:invert(100%); */
+
+        color:white;
+        background-color: white; left:2px; top:0px;
+
+
+    }
 }
