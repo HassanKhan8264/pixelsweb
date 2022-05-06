@@ -71,7 +71,7 @@ body{
 }
 .inputbar{
     border: 1px solid lightgray;
-    width: 50%;
+    width: 30%;
     border-radius: 2px;
     text-align: center;
     display: flex;
@@ -104,9 +104,7 @@ body{
 }
 .home{
     border: 1px solid aqua;
-    padding:20px 5px;
-    
-
+    width:45%;
 }
 .off{
     /* border: 1px solid red; */
@@ -161,6 +159,10 @@ body{
 }
 #check{
     display: none;
+}
+.id{
+    display: none;
+
 }
 .ul{
     /* border: 1px solid red; */
@@ -484,4 +486,55 @@ body{
 
 
     }
+}
+@media screen and (max-width:1349px) {
+    .navbar{
+        width:100%;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .home{
+        width:100%;
+        display: none;
+    }
+    .inputbar{
+        width: 70%;
+    }
+    .id{
+        display: block;
+    }
+}
+@media screen and (max-width:786px) {
+    .inputbar {
+        width:65%;
+    }
+
+    .off{
+        width: 30%;
+        border: 1px solid red;
+    }
+    #logo{
+        margin-left:30px;
+        width: 65%;
+    }
+}
+@media screen and (max-width:600px) {
+    .logo{
+        display: none;
+    }
+    .inputbar{
+        width:85%;
+    }
+    .off{
+        width:10%;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .off{
+        width:12%;
+        text-align: center;
+    }
+    
 }
