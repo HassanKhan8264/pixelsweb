@@ -13,11 +13,11 @@ body{
 .main{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex-wrap: wrap;
 }
 .navbar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 13vh;
     padding: 0px;
     width: 100%;
@@ -27,7 +27,7 @@ body{
 }
 
 .logo{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 30px;
     color:royalblue;
     font-family: roboto;
@@ -103,7 +103,7 @@ body{
     padding-left: 20px;
 }
 .home{
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     width:45%;
 }
 .off{
@@ -116,7 +116,7 @@ body{
 
 }
 #bars{
-    border:1px solid red ;
+    /* border:1px solid red ; */
 }
 #bars:hover{
     color: black !important;
@@ -273,7 +273,7 @@ body{
     display: block;
 }
 .leftside{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 35vh;
     margin: 5px;
     height: auto;
@@ -286,24 +286,24 @@ body{
     justify-content: space-between;
 }
 #mob{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 5px;
     font-size: 30px;
     padding-top: 20px;
 }
 .devices{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f3f4;
     text-align: center;
     color: grey;
     cursor: pointer;
 }
 .list{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 4px 0px;
 }
 .midside{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 59vw;
     margin: 5px;
     margin-left:50px;
@@ -312,11 +312,11 @@ body{
 .midmain{
     display:flex;
     flex-direction: row;
-    background-color: red;
+    /* background-color: red; */
     justify-content: space-between;
 }
 .system{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f3f4;
     text-align: center;
     color: grey;
@@ -324,7 +324,7 @@ body{
     height: 40px;
 }
 .size{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f3f4;
     text-align: center;
     color: grey;
@@ -332,7 +332,7 @@ body{
     height: 40px;
 }
 .w{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f3f4;
     text-align: center;
     color: grey;
@@ -340,7 +340,7 @@ body{
     height: 40px;
 }
 .H{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f3f4;
     text-align: center;
     color: grey;
@@ -349,7 +349,7 @@ body{
 
 }
 .popularity{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f3f4;
     text-align: center;
     color: grey;
@@ -366,7 +366,7 @@ body{
     line-height: 55px;
 }
 .rightside{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 5px ;
     width: 18vw;
     height: auto;
@@ -385,7 +385,7 @@ body{
     margin-bottom: 3px;
 }
 .facebook{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: royalblue;
     border-radius: 4px;
     border: none;
@@ -440,7 +440,7 @@ body{
 }
 .twitter{
     /* border: 1px solid red; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: rgb(144, 170, 247);
     border-radius: 4px;
     border: none;
@@ -512,7 +512,7 @@ body{
 
     .off{
         width: 30%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     #logo{
         margin-left:30px;
